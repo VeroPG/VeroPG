@@ -53,5 +53,7 @@ Feel free to check out my projects and reach out if you want to collaborate!
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=VeroPG&theme=vue&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
+![](./profile-3d-contrib/profile-gitblock.svg)
+
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

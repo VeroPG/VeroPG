@@ -27,30 +27,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
       - name: Commit & Push
-        env:
-          COMMIT_MESSAGE: ${{ github.event.inputs.custom-message }}
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
           git commit -m "${COMMIT_MESSAGE}"
           git push
-      - name: Send Notification
-        if: success()
-        uses: dawidd6/action-send-mail@v3
-        env:
-          SERVER_ADDRESS: smtp.example.com
-          SERVER_PORT: 587
-          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
-          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-          TO_EMAIL: user@example.com
-          FROM_EMAIL: github-actions@example.com
-        with:
-          server_address: ${{ env.SERVER_ADDRESS }}
-          server_port: ${{ env.SERVER_PORT }}
-          username: ${{ env.EMAIL_USERNAME }}
-          password: ${{ env.EMAIL_PASSWORD }}
-          subject: Workflow Success
-          body: The GitHub Profile 3D Contrib workflow completed successfully.
-          to: ${{ env.TO_EMAIL }}
-          from: ${{ env.FROM_EMAIL }}
+     

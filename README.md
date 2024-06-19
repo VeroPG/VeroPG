@@ -1,15 +1,16 @@
 
 ![Sin título](https://github.com/VeroPG/VeroPG/assets/59848697/e2ec2e3f-99bd-480b-b74b-fe5e09e2ed92)
-
-Hi there!
+<img src="https://user-images.githubusercontent.com/74038190/226190894-18e959ba-d458-4a94-ac44-790190f2a947.gif" width="400">
 
 I'm a passionate web developer from Madrid, specializing in both MERN (MongoDB, Express.js, React, Node.js) and PERN (PostgreSQL, Express.js, React, Node.js) stacks. With a strong foundation in full-stack development, I love building robust, scalable web applications and continuously exploring new technologies.
 
 Feel free to check out my projects and reach out if you want to collaborate!
 
 
+
 ## 📫 How to reach me: 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/veronica-parra-graca) 
+
 
 ## 🧰 &nbsp;My toolbox:
 <div align="center">
@@ -49,6 +50,8 @@ Feel free to check out my projects and reach out if you want to collaborate!
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=VeroPG&limit=5&theme=flat&combine_all_yearly_contributions=true)
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=VeroPG&theme=vue&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
